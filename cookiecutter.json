@@ -1,6 +1,6 @@
 {
-    "repo": "atramhasis_demo",
-    "package": "atramhasis_demo",
-    "package_logger": "demo_logger",
-    "project": "atramhasis-demo"
-} 
+    "repo": "atramhasis_app",
+    "package": "atramhasis_app",
+    "package_logger": "atramhasis_app_logger",
+    "project": "atramhasis-app"
+}
