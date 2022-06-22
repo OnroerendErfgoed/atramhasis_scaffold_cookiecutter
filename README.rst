@@ -1,6 +1,8 @@
-=======================
-atramhasis demo project
-=======================
+==================
+atramhasis project
+==================
+
+Create your own Atramhasis implementation
 
 Requirements
 ------------
@@ -12,16 +14,19 @@ Requirements
 Usage
 -----
 
-#.  Generate an atramhasis demo project.
+#.  Generate an atramhasis project.
 
     .. code-block:: bash
 
+        $ cd <parent folder for new repo>
         $ cookiecutter gh:OnroerendErfgoed/atramhasis_scaffold_cookiecutter
 
 #.  Create a virtual environment and install requirements
 
     .. code-block:: bash
 
+        # Create a virtual environemnt, f.e. python -m venv <venv_dir>/<venv_name>
+        # Activate the virtual environment, f.e.source <venv_dir>/<venv_name>/bin/activate
         # Change directory into your newly created project if not already there.
         $ pip install -r requirements-dev.txt
         $ pip install -e .
