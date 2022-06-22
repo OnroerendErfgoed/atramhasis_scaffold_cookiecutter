@@ -17,7 +17,7 @@ def create_registry(request):
     #     {'id': 'TREES', 'conceptscheme_id': 1},
     #     request.db
     # )
-    
+
     # Add your custom provider to the registry
     # registry.register_provider(TREES)
 
