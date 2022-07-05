@@ -41,12 +41,12 @@ Usage
 
     .. code-block:: bash
 
-        cd <package-name>/static
+        cd atramhasis_app/static
         npm install
 
 #.  Run server
 
     .. code-block:: bash
 
-        cd <root of repo>
+        cd ../..
         pserve development.ini
