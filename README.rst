@@ -22,13 +22,9 @@ Usage
  
         
 
-#.  Create a virtual environment and install requirements
+#.  Create a virtual environment (fe python -m venv $HOME/.virtualenvs/atramhasis_app_venv), activate the virtual environemt (f.e. source $HOME/.virtualenvs/atramhasis_app_venv/bin/activate), change directory into your newly created project if not already there and install requirements
 
     .. code-block:: bash
-
-        # create a new virtual environment for the project, fe python -m venv $HOME/.virtualenvs/atramhasis_app_venv
-        # Activate the virtual environment, f.e.source $HOME/.virtualenvs/atramhasis_app_venv/bin/activate
-        # Change directory into your newly created project if not already there.
         pip install -r requirements-dev.txt
         pip install -e .
 
