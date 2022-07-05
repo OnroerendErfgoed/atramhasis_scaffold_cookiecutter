@@ -24,6 +24,7 @@ Usage
 #.  Create a virtual environment and install requirements
 
     .. code-block:: bash
+    
         pip install -r requirements-dev.txt
         pip install -e .
 
