@@ -21,10 +21,13 @@ Usage
         cookiecutter gh:OnroerendErfgoed/atramhasis_scaffold_cookiecutter --checkout develop
  
 
-#.  Create a virtual environment and install requirements
+#.  Create a virtual environment, change dir to project folder and install requirements
 
     .. code-block:: bash
-    
+        
+        cd atramhasis_app
+        python -m venv $HOME/.virtualenvs/atramhasis_app
+        source $HOME/.virtualenvs/atramhasis_app/bin/activate
         pip install -r requirements-dev.txt
         pip install -e .
 
