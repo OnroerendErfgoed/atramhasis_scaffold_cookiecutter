@@ -18,35 +18,35 @@ Usage
 
     .. code-block:: bash
 
-        $ cd <parent folder for new repo>
-        $ cookiecutter gh:OnroerendErfgoed/atramhasis_scaffold_cookiecutter
+        cd <parent folder for new repo>
+        cookiecutter gh:OnroerendErfgoed/atramhasis_scaffold_cookiecutter
 
 #.  Create a virtual environment and install requirements
 
     .. code-block:: bash
 
-        # Create a virtual environemnt, f.e. python -m venv <venv_dir>/<venv_name>
-        # Activate the virtual environment, f.e.source <venv_dir>/<venv_name>/bin/activate
+        # create a new virtual environment for the project, fe python -m venv $HOME/.virtualenvs/atramhasis_app_venv
+        # Activate the virtual environment, f.e.source $HOME/.virtualenvs/atramhasis_app_venv/bin/activate
         # Change directory into your newly created project if not already there.
-        $ pip install -r requirements-dev.txt
-        $ pip install -e .
+        pip install -r requirements-dev.txt
+        pip install -e .
 
 #.  Setup database
 
     .. code-block:: bash
 
-        $ alembic upgrade head
+        alembic upgrade head
 
 #.  install frontend requirements
 
     .. code-block:: bash
 
-        $ cd <package-name>/static
-        $ npm install
+        cd <package-name>/static
+        npm install
 
 #.  Run server
 
     .. code-block:: bash
 
-        $ cd <root of repo>
-        $ pserve development.ini
+        cd <root of repo>
+        pserve development.ini
