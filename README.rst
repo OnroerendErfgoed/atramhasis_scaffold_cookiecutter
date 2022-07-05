@@ -14,13 +14,13 @@ Requirements
 Usage
 -----
 
-#.  Generate an atramhasis project.
+#.  Generate an atramhasis project. To create a project from a specific cookiecutter branch/release you can checkout a specific branch/release
 
     .. code-block:: bash
 
-        cookiecutter gh:OnroerendErfgoed/atramhasis_scaffold_cookiecutter
-        # Or create a project from a specific cookiecutter branch/release
-        # cookiecutter gh:OnroerendErfgoed/atramhasis_demo_cookiecutter --checkout develop
+        cookiecutter gh:OnroerendErfgoed/atramhasis_scaffold_cookiecutter --checkout develop
+ 
+        
 
 #.  Create a virtual environment and install requirements
 
