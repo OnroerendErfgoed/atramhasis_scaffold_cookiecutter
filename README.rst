@@ -18,8 +18,9 @@ Usage
 
     .. code-block:: bash
 
-        cd <parent folder for new repo>
         cookiecutter gh:OnroerendErfgoed/atramhasis_scaffold_cookiecutter
+        # Or create a project from a specific cookiecutter branch/release
+        # cookiecutter gh:OnroerendErfgoed/atramhasis_demo_cookiecutter --checkout develop
 
 #.  Create a virtual environment and install requirements
 
