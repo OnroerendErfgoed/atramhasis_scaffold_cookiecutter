@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+from atramhasis import skos
+
 from skosprovider.registry import Registry
 from skosprovider.uri import UriPatternGenerator
 from skosprovider_sqlalchemy.providers import SQLAlchemyProvider
@@ -10,6 +12,7 @@ log = logging.getLogger(__name__)
 def create_registry(request):
     # create the SKOS registry
     registry = Registry(instance_scope='threaded_thread')
+    skos.register_providers_from_db(registry, request.db)
 
     # create your own providers
     #
