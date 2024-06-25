@@ -1,6 +1,6 @@
-=======================
-atramhasis demo project
-=======================
+==================
+atramhasis project
+==================
 
 Requirements
 ------------
@@ -12,7 +12,7 @@ Requirements
 Usage
 -----
 
-#.  Generate an atramhasis demo project.
+#.  Generate an atramhasis project.
 
     .. code-block:: bash
 
